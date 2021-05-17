@@ -1,6 +1,6 @@
 {
   "name": "@xiler/icon",
-  "version": "0.0.1-frc",
+  "version": "0.0.3",
   "description": "A package which contains the Xiler icon pack. This makes the distribution and concistency easier and better. ",
   "main": "lib/index.js",
   "types": "lib/types.d.ts",
@@ -10,13 +10,12 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
-    "build": "run tsc && yarn run copy:assets",
+    "build": "run tsc",
     "prepare": "yarn run build",
     "prepublishOnly": "yarn run lint",
     "preversion": "yarn run lint",
     "version": "yarn run format && git add -A src",
-    "postversion": "git push && git push --tags",
-    "copy:assets": "cpx 'src/assets/**' 'lib/assets'"
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",

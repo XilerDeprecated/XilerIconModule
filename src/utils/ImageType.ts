@@ -1,8 +1,8 @@
-import XilerIcon from "../assets/icon.svg"
+import { Icon } from "../assets/Icon";
 
 /** Image types which get used by the lib. */
 export class ImageType {
-  public static Icon = XilerIcon;
+  public static Icon = Icon;
 }
 
 /** The image properties for the custom image elements. */

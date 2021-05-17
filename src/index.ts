@@ -1,1 +1,3 @@
-export { Icon } from './components/Image';
+import { Icon as ico } from './components/Image';
+
+export const Icon = ico;

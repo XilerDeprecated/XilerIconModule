@@ -1,4 +1,5 @@
-type SVGType = React.FunctionComponent<React.SVGAttributes<SVGElement>>;
+type SVGProps = React.SVGAttributes<SVGElement>;
+type SVGType = React.FunctionComponent<SVGProps>;
 
 declare module '*.svg' {
   const content: SVGType;
