@@ -1,8 +1,8 @@
 import * as React from 'react';
 
-const LINE = 'round',
-  STROKE_WIDTH = '1.5',
-  COLOR = '#ECF0F1';
+const LINE = 'round';
+const STROKE_WIDTH = '1.5';
+const COLOR = '#ECF0F1';
 
 export const CoinsIcon: React.FC<SVGProps> = (props) => (
   <svg {...props} viewBox="0 0 19 18" xmlns="http://www.w3.org/2000/svg">
