@@ -8,7 +8,7 @@ import Themes from '@xiler/theme';
  * The main image component which gets shared.
  */
 const Image: React.FC<MainImageProps> = ({ className, size, Img, color = Themes.dark.secondary[500] }) => (
-  <Img className={className} width={size?.width ?? 'fit-content'} height={size?.height ?? 'fit-content'} fill={color} />
+  <Img className={className} width={size?.width ?? 500} height={size?.height ?? 500} fill={color} />
 );
 
 /**
