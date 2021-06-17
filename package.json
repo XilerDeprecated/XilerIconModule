@@ -1,6 +1,6 @@
 {
   "name": "@xiler/icon",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "A package which contains the Xiler icon pack. This makes the distribution and concistency easier and better. ",
   "main": "lib/index.js",
   "types": "lib/types.d.ts",

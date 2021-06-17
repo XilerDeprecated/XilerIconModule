@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import ImageType, { ImageProps, MainImageProps } from '../utils/ImageType';
+import ImageType, { ImageProps, MainImageProps } from './utils/ImageType';
 
 import Themes from '@xiler/theme';
 
@@ -8,7 +8,7 @@ import Themes from '@xiler/theme';
  * The main image component which gets shared.
  */
 const Image: React.FC<MainImageProps> = ({ className, size, Img, color = Themes.dark.secondary[500] }) => (
-  <Img className={className} width={size?.width ?? 'auto'} height={size?.height ?? 'auto'} fill={color} />
+  <Img className={className} width={size?.width ?? 'fit-content'} height={size?.height ?? 'fit-content'} fill={color} />
 );
 
 /**
