@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import { SVGProps } from '..';
+
 const LINE = 'round';
 const STROKE_WIDTH = '1.5';
 const COLOR = '#ECF0F1';

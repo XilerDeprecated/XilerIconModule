@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import { SVGProps } from '..';
+
 /** The Xiler Icon */
 export const Icon: React.FC<SVGProps> = (props) => (
   <svg {...props} viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">

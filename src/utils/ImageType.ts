@@ -5,6 +5,7 @@ import { DashboardIcon } from '../assets/DashboardIcon';
 import { DocumentationIcon } from '../assets/DocumentationIcon';
 import { Icon } from '../assets/Icon';
 import { InboxIcon } from '../assets/InboxIcon';
+import { SVGType } from '..';
 import { SearchIcon } from '../assets/SearchIcon';
 import { SettingsIcon } from '../assets/SettingsIcon';
 

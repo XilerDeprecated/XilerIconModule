@@ -10,6 +10,9 @@ import {
   SettingsIcon as settingsIco,
 } from './components/Image';
 
+export type SVGProps = React.SVGAttributes<SVGElement>;
+export type SVGType = React.FC<SVGProps>;
+
 export const Icon = ico;
 export const DashboardIcon = dashIco;
 export const DocumentationIcon = docIco;
