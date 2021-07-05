@@ -84,3 +84,19 @@ export const SearchIcon: React.FC<ImageProps> = (props) => <Image Img={ImageType
  * @returns An image with the coins icon.
  */
 export const CoinsIcon: React.FC<ImageProps> = (props) => <Image Img={ImageType.CoinsIcon} {...props} />;
+
+/**
+ * The sign out icon.
+ *
+ * @param props The {@typedef ImageProps} which apply to the img.
+ * @returns An image with the sign out icon.
+ */
+export const SignOutIcon: React.FC<ImageProps> = (props) => <Image Img={ImageType.SignOutIcon} {...props} />;
+
+/**
+ * The arrow icon.
+ *
+ * @param props The {@typedef ImageProps} which apply to the img.
+ * @returns An image with the arrow icon.
+ */
+export const ArrowIcon: React.FC<ImageProps> = (props) => <Image Img={ImageType.ArrowIcon} {...props} />;

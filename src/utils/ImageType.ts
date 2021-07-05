@@ -1,4 +1,5 @@
 import { ApplicationsIcon } from '../assets/ApplicationsIcon';
+import { ArrowIcon } from '../assets/ArrowIcon';
 import { BellIcon } from '../assets/BellIcon';
 import { CoinsIcon } from '../assets/CoinsIcon';
 import { DashboardIcon } from '../assets/DashboardIcon';
@@ -8,6 +9,7 @@ import { InboxIcon } from '../assets/InboxIcon';
 import { SVGType } from '..';
 import { SearchIcon } from '../assets/SearchIcon';
 import { SettingsIcon } from '../assets/SettingsIcon';
+import { SignOutIcon } from '../assets/SignOutIcon';
 
 /** Image types which get used by the lib. */
 export class ImageType {
@@ -20,6 +22,8 @@ export class ImageType {
   public static SettingsIcon = SettingsIcon;
   public static SearchIcon = SearchIcon;
   public static CoinsIcon = CoinsIcon;
+  public static SignOutIcon = SignOutIcon;
+  public static ArrowIcon = ArrowIcon;
 }
 
 /** The image properties for the custom image elements. */
